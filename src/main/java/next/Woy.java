@@ -12,5 +12,11 @@ public class Woy {
         for (String s : list) {
             System.out.println(s);
         }
+        String s1 = list.get(1);
+        String s2 = list.get(0);
+        System.out.println(s1);
+        if (s1.equals(s2)) {
+            System.out.println("True");
+        } else System.out.println("False");
     }
 }
